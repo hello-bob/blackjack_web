@@ -1,0 +1,50 @@
+h1 {
+    color: goldenrod;
+    font-size: 30px;
+} /*Each of these parantheses are 'Selectors'*/
+
+body {
+    background-image: url('table.png');
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+}
+/*The external .css file should not contain any HTML tags.*/ 
+
+/* '#' indicative of an element's ID selector. '.' are representative of classes. classes are defined within each html tag 
+e.g. <p class="bright"></p>. */
+
+/* You can use CSS classes to group HTML elements and then apply custom styles to them. 
+You can make classes and apply them to text, buttons, spans and divs, tables, images, 
+or just about any other page element you can think of. */
+
+button {
+    background:goldenrod;
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #016f32;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 2px;
+
+}
+
+/* Element's ID selector*/
+#message-el {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+/*Can create our own classes to tweak appearance of parts of HTML file. 
+To apply via <tag class=orange-text> */
+.orange-text {
+    color: orange;
+    font-weight: bold;
+}
